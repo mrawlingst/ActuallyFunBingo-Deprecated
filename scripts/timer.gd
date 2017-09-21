@@ -27,6 +27,8 @@ func _on_Start_Pause_Button_pressed():
 		time_start = OS.get_unix_time()
 		set_process(true)
 		timer_active = true
+		get_node("../Seed Generator/Generate Button").set_disabled(true)
+		get_node("../Seed Generator/Reset Button").set_disabled(true)
 	elif timer_active:
 		pause_timer()
 
@@ -36,6 +38,8 @@ func pause_timer():
 	paused_elapsed = elapsed
 	set_process(false)
 	timer_active = false
+	get_node("../Seed Generator/Generate Button").set_disabled(false)
+	get_node("../Seed Generator/Reset Button").set_disabled(false)
 
 func _on_Reset_Button_pressed():
 	set_process(false)
@@ -43,3 +47,5 @@ func _on_Reset_Button_pressed():
 	paused_elapsed = 0
 	get_node("Current Time").set_text("00:00:00.000")
 	get_node("Start Pause Button").set_text("Start")
+	get_node("../Seed Generator/Generate Button").set_disabled(false)
+	get_node("../Seed Generator/Reset Button").set_disabled(false)
