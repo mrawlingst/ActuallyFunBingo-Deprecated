@@ -28,7 +28,7 @@ var milestones = {
 	"Uncommon cloak (1)": 0,
 	"Tabard (1)": 0,
 	"Learn the apprentice riding skill": 0,
-	"light leather (20)": 0,
+	"Light leather (20)": 0,
 	"Linen cloth (20)": 0,
 	"Silverleaf (20)": 0,
 	"Peacebloom (20)": 0,
