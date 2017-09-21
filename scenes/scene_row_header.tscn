@@ -43,4 +43,8 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
+[connection signal="mouse_enter" from="." to="." method="_on_Row_mouse_enter"]
+
+[connection signal="mouse_exit" from="." to="." method="_on_Row_mouse_exit"]
+
 
