@@ -68,6 +68,8 @@ shortcut = null
 text = "Quit"
 flat = false
 
+[connection signal="pressed" from="World of Warcraft" to="." method="_on_World_of_Warcraft_pressed"]
+
 [connection signal="pressed" from="Quit Button" to="." method="_on_Quit_Button_pressed"]
 
 
