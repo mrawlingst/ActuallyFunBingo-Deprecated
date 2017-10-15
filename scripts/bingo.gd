@@ -97,3 +97,44 @@ func inBL_TR(p):
 			return [true, i]
 	
 	return [false, 0]
+
+func check_for_bingo():
+	# Col
+	for col in range(5):
+		for row in range(5):
+			if not get_node("Card/Milestone_" + str((row * 5) + col + 1)).is_pressed():
+				break
+			
+			if row == 4:
+				get_node("Timer").pause_timer()
+				return
+	
+	# Row
+	for row in range(5):
+		for col in range(5):
+			if not get_node("Card/Milestone_" + str((row * 5) + col + 1)).is_pressed():
+				break;
+			
+			if col == 4:
+				get_node("Timer").pause_timer()
+				return
+	
+	# TL-BR
+	for i in range(5):
+		if not get_node("Card/Milestone_" + str((i * 5) + i + 1)).is_pressed():
+			break
+		
+		if i == 4:
+			get_node("Timer").pause_timer()
+			return
+	
+	# BL-TR
+	for i in range(5):
+		if not get_node("Card/Milestone_" + str((i * 5) - i + 5)).is_pressed():
+			break
+		
+		if i == 4:
+			get_node("Timer").pause_timer()
+			return
+	
+	get_node("Timer").start_timer()

@@ -23,14 +23,24 @@ func _process(delta):
 
 func _on_Start_Pause_Button_pressed():
 	if !timer_active:
-		get_node("Start Pause Button").set_text("Pause")
-		time_start = OS.get_unix_time()
-		set_process(true)
-		timer_active = true
-		get_node("../Seed Generator/Generate Button").set_disabled(true)
-		get_node("../Seed Generator/Reset Button").set_disabled(true)
+		#get_node("Start Pause Button").set_text("Pause")
+		#time_start = OS.get_unix_time()
+		#set_process(true)
+		#timer_active = true
+		#get_node("../Seed Generator/Generate Button").set_disabled(true)
+		#get_node("../Seed Generator/Reset Button").set_disabled(true)
+		start_timer()
 	elif timer_active:
 		pause_timer()
+
+func start_timer():
+	if !timer_active:
+		get_node("Start Pause Button").set_text("Pause")
+	time_start = OS.get_unix_time()
+	set_process(true)
+	timer_active = true
+	get_node("../Seed Generator/Generate Button").set_disabled(true)
+	get_node("../Seed Generator/Reset Button").set_disabled(true)
 
 func pause_timer():
 	if timer_active:

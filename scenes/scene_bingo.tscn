@@ -81,4 +81,55 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
+[connection signal="pressed" from="Card/Milestone_1" to="." method="check_for_bingo"]
 
+[connection signal="pressed" from="Card/Milestone_2" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_3" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_4" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_5" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_6" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_7" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_8" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_9" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_10" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_11" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_12" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_13" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_14" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_15" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_16" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_17" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_18" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_19" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_20" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_21" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_22" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_23" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_24" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Card/Milestone_25" to="." method="check_for_bingo"]
+
+
+[editable path="Card"]
