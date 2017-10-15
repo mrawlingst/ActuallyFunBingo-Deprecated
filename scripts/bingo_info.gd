@@ -8,3 +8,9 @@ func info():
 		return wow_data.info()
 	
 	return ""
+
+func get_version():
+	if game == "World of Warcraft":
+		return wow_data.version
+	
+	return "0"

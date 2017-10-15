@@ -1,5 +1,7 @@
 extends Node
 
+var version = "1.0.0"
+
 var milestones = {
 	# Non-exclusive
 	"6 slots bag (1)": 0,
