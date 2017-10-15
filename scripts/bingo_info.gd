@@ -7,10 +7,16 @@ func info():
 	if game == "World of Warcraft":
 		return wow_data.info()
 	
+	if game == "Dark Souls":
+		return ds_data.info()
+	
 	return ""
 
 func get_version():
 	if game == "World of Warcraft":
 		return wow_data.version
+	
+	if game == "Dark Souls":
+		return ds_data.version
 	
 	return "0"

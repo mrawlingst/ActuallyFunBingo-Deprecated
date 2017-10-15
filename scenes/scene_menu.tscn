@@ -115,7 +115,6 @@ margin/left = 159.0
 margin/top = 0.0
 margin/right = 231.0
 margin/bottom = 72.0
-disabled = true
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -265,6 +264,8 @@ max_lines_visible = -1
 [connection signal="pressed" from="World of Warcraft_Old" to="." method="_on_World_of_Warcraft_pressed"]
 
 [connection signal="pressed" from="Quit Button" to="." method="_on_Quit_Button_pressed"]
+
+[connection signal="pressed" from="Games/Row 1/Dark Souls" to="." method="_on_Dark_Souls_pressed"]
 
 [connection signal="pressed" from="Games/Row 1/World of Warcraft" to="." method="_on_World_of_Warcraft_pressed"]
 
