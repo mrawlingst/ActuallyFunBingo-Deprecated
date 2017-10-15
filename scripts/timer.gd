@@ -34,8 +34,7 @@ func _on_Start_Pause_Button_pressed():
 		pause_timer()
 
 func start_timer():
-	if !timer_active:
-		get_node("Start Pause Button").set_text("Pause")
+	get_node("Start Pause Button").set_text("Pause")
 	time_start = OS.get_unix_time()
 	set_process(true)
 	timer_active = true
@@ -43,8 +42,7 @@ func start_timer():
 	get_node("../Seed Generator/Reset Button").set_disabled(true)
 
 func pause_timer():
-	if timer_active:
-		get_node("Start Pause Button").set_text("Resume")
+	get_node("Start Pause Button").set_text("Resume")
 	paused_elapsed = elapsed
 	set_process(false)
 	timer_active = false

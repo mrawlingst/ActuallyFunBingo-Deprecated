@@ -13,6 +13,8 @@ First made a [web version](https://mrawlingst.github.io/wow-bingo/) of bingo for
     * Automatically stops when you *bingo*; completed row/column/diagonal
 * Randomly generated bingo
     * Supports seeding system
+* Curatation system
+    * Make mutually exclusive milestones not share same row/col/diagonal
 * Support different games
 
 ## Games
@@ -44,8 +46,6 @@ Planned Bingo Modes:
 
 
 ## TODO
-* Curatation system
-    * Make mutually exclusive milestones not share same row/col/diagonal
 * Implement planned games
 * Support networked shared bingo for lockout bingo
 
