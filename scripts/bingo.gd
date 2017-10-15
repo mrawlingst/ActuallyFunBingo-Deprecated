@@ -27,6 +27,8 @@ func populate_card():
 	
 	for i in range(25):
 		get_node("Card/Milestone_" + str(i + 1) + "/Label").set_text(milestones[i])
+	
+	get_node("Info").set_bbcode("[right]Seed: [b]" + str(bingo_seed) + "[/b]\tVersion: [b]v1.0.0[/b][/right]")
 
 # True if need new milestone
 # False if dont need new milestone
