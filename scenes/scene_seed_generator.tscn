@@ -52,6 +52,7 @@ caret/caret_blink_speed = 0.65
 
 [node name="Generate Button" type="Button" parent="."]
 
+hint/tooltip = "Generate bingo card based on seed"
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
@@ -69,6 +70,7 @@ flat = false
 
 [node name="Reset Button" type="Button" parent="."]
 
+hint/tooltip = "Reset the bingo card to incomplete"
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2

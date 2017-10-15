@@ -36,6 +36,7 @@ max_lines_visible = -1
 
 [node name="Start Pause Button" type="Button" parent="."]
 
+hint/tooltip = "Start the timer"
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
@@ -53,6 +54,7 @@ flat = false
 
 [node name="Reset Button" type="Button" parent="."]
 
+hint/tooltip = "Stops and reset timer to zero"
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
