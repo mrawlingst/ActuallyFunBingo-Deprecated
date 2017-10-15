@@ -144,3 +144,15 @@ var race_class = [
 	"Undead Warlock",
 	"Undead Warrior"
 ]
+
+func info():
+	randomize()
+	var current_combo = race_class[randi() % race_class.size()]
+	var combo = current_combo.split(" ")
+	var txt = ""
+	if combo.size() == 3:
+		txt = "Race: [b]" + combo[0] + " " + combo[1] + "[/b]\t" + "Class: [b]" + combo[2] + "[/b]"
+	else:
+		txt = "Race: [b]" + combo[0] + "[/b]\t" + "Class: [b]" + combo[1] + "[/b]"
+	
+	return txt
