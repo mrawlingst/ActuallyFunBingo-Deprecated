@@ -82,6 +82,23 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
+[node name="Back" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 10.0
+margin/top = 11.0
+margin/right = 60.0
+margin/bottom = 36.0
+custom_fonts/font = ExtResource( 7 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Back"
+flat = false
+
 [connection signal="pressed" from="Card/Milestone_1" to="." method="check_for_bingo"]
 
 [connection signal="pressed" from="Card/Milestone_2" to="." method="check_for_bingo"]
@@ -131,6 +148,8 @@ max_lines_visible = -1
 [connection signal="pressed" from="Card/Milestone_24" to="." method="check_for_bingo"]
 
 [connection signal="pressed" from="Card/Milestone_25" to="." method="check_for_bingo"]
+
+[connection signal="pressed" from="Back" to="." method="_on_Back_pressed"]
 
 
 [editable path="Card"]

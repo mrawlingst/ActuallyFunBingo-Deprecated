@@ -138,3 +138,7 @@ func check_for_bingo():
 			return
 	
 	get_node("Timer").start_timer()
+
+
+func _on_Back_pressed():
+	get_tree().change_scene("res://scenes/scene_menu.tscn")
