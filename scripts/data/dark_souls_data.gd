@@ -1,15 +1,48 @@
 extends Node
 
 # Version of game data
-var version = "1.0.0"
+# vA.B.C
+# A = Major update
+# B = New milestones (more than removal)
+# C = Removed milestones (more than additions)
+var version = "1.1.0"
 
 var milestones = {
 	# NON-EXCLUSIVE
+	# ENEMIES
 	"Kill Armored Boar (Parish)": 0,
+	"Kill Black Knight (Burg)": 0,
+	"Kill Black Knight (Parish)": 0,
+	"Kill Black Knight (Darkroot Basin)": 0,
+	"Kill Black Knight (Catacombs)": 0,
+	"Kill Black Knight (Tomb of Giants)": 0,
+	"Kill both Black Knights (Asylum)": 0,
+	"Kill Mimic (Sen's Fortress)": 0,
+	"Kill Mimic (Anor Londo)": 0,
+	"Kill Mimic (Duke's Archives)": 0,
+	"Kill Crystal Lizard (Burg)": 0,
+	"Kill Crystal Lizard (Darkroot Basin)": 0,
+	"Kill Crystal Lizard (Catacombs)": 0,
+	"Kill Crystal Lizard (Tomb of Giants)": 0,
+	"Kill 5 Crystal Lizards (Great Hollow)": 0,
+	"Kill Crystal Lizard (Lost Izalith)": 0,
+	"Kill Crystal Lizard (Duke's Archives)": 0,
+	"Kill Crystal Lizard (Crystal Cave)": 0,
+	"Kill Crystal Lizard (Royal Woods)": 0,
+	"Kill Crystal Lizard (Oolacile Township)": 0,
+	"Kill Titanite Demon (Darkroot Garden)": 0,
+	"Kill Titanite Demon (Sen's Fortress)": 0,
+	"Kill Titanite Demon (Anor Londo)": 0,
+	"Kill Titanite Demon (Catacombs)": 0,
+	"Kill Titanite Demon (Lost Izalith)": 0,
+	"Kill Channeler (Depths)": 0,
+	"Kill Channeler (Parish)": 0,
+	
 	"4 Attunement Slots": 0,
 	"Invade Lautrec": 0,
+	"+10 Armor": 0,
 
-	#  NPCS
+	# NPCS
 	"Kill Andre of Astora": 0,
 	"Kill Giant Blacksmith": 0,
 	"Kill Rickert of Vinheim": 0,
@@ -464,6 +497,7 @@ var milestones = {
 	"Soul of Bed of Chaos": 0,
 
 	# KEYS
+	"Undead Asylum F2 West Key": 0,
 	"Master Key": 0,
 	"Residence Key": 0,
 	"Mystery Key": 0,
@@ -505,7 +539,7 @@ var milestones = {
 	"Large Titanite Shard (5)": 0,
 	"Titanite Chunk (2)": 0,
 	"Green Titanite Shard (5)": 0,
-	"Twinkling Titantie (5)": 0,
+	"Twinkling Titanite (5)": 0,
 
 	# PROJECTILES
 	"Firebomb (20)": 0,
@@ -618,7 +652,7 @@ var milestones = {
 	"Obtain Mask of the Mother": 14,
 	"Obtain Mask of the Child": 14,
 
-	# WEAPON UPGRADES - 15
+	# WEAPON/ARMOR UPGRADES - 15
 	"+10 Weapon (Normal)": 15,
 	"+5 Weapon (Lightning)": 15,
 	"+5 Weapon (Crystal)": 15,
@@ -630,6 +664,13 @@ var milestones = {
 	"+5 Weapon (Chaos)": 15,
 	"+5 Weapon (Dragon)": 15,
 	"+5 Weapon (Raw)": 15,
+	"+10 Shield (Normal)": 15,
+	"+5 Shield (Lightning)": 15,
+	"+5 Shield (Crystal)": 15,
+	"+5 Shield (Divine)": 15,
+	"+5 Shield (Magic)": 15,
+	"+5 Shield (Fire)": 15,
+	"+5 Shield (Dragon)": 15,
 	"Large Ember": 15,
 	"Very Large Ember": 15,
 	"Divine Ember": 15,
