@@ -15,7 +15,7 @@ func _process(delta):
 	var hours = elapsed / 3600
 	var minutes = elapsed / 60
 	while minutes >= 60:
-		minutes /= 60
+		minutes = minutes % 60
 	var seconds = elapsed % 60
 	var milliseconds = OS.get_ticks_msec() % 1000
 	var str_elapsed = "%02d:%02d:%02d.%03d" % [hours, minutes, seconds, milliseconds]
