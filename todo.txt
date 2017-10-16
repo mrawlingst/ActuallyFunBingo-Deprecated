@@ -1,8 +1,11 @@
 BUGS
 
-Dark Souls
+GENERAL
+- Credits
+- New icon for exe
+
+DARK SOULS
 - light specific bonfires
     - kindle?
 
-BOTW
-- pixel icon
+BREATH OF THE WILD
