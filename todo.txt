@@ -1,0 +1,41 @@
+BUGS
+
+Dark Souls
+- undead asylum f2 west key
+- kill black knight
+    - burg
+    - parish
+    - basin
+    - catacombs
+    - asylum
+    - tomb
+- kill mimic
+    - sens
+    - londo
+    - archives
+- kill crystal lizard
+    - burg
+    - basin
+    - catacombs 1
+    - catacombs 2
+    - tomb
+    - great hollow
+    - izalith
+    - archives
+    - woods
+    - township
+- kill titanite demon
+    - garden
+    - sens
+    - londo
+    - catacombs
+    - izalith
+- kill channeler
+    - depths
+    - parish
+- light specific bonfires
+- +10 armor
+- +5 shield paths
+
+BOTW
+- pixel icon

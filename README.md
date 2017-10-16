@@ -20,8 +20,8 @@ First made a [web version](https://mrawlingst.github.io/wow-bingo/) of bingo for
 ## Games
 
 Games Supported:
-* Dark Souls
-* World of Warcraft
+* Dark Souls ([changelog](dark_souls_changelog.md))
+* World of Warcraft ([changelog](world_of_warcraft_changelog.md))
 
 Planned Game Support:
 * Dark Souls II
@@ -29,10 +29,12 @@ Planned Game Support:
 * Super Mario 64
 * The Legend of Zelda: Breath of the Wild
 * The Legend of Zelda: Ocarina of Time
+* World of Warcraft *Turbo*
+    * More challenging milestones
 
 ## Modes
 
-*Rules pertaining to game are house rules or agreed on by group prior to start*.
+*Rules pertaining to the game are house rules or agreed on by the group prior to the start*.
 
 Modes Supported:
 * Standard
