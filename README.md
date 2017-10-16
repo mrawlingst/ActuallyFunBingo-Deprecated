@@ -20,10 +20,10 @@ First made a [web version](https://mrawlingst.github.io/wow-bingo/) of bingo for
 ## Games
 
 Games Supported:
+* Dark Souls
 * World of Warcraft
 
 Planned Game Support:
-* Dark Souls
 * Dark Souls II
 * Dark Souls III
 * Super Mario 64
