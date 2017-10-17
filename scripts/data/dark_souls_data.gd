@@ -431,7 +431,6 @@ var milestones = {
 	"Obtain Witch set": 0,
 	"Obtain Xanthous set": 0,
 	"Obtain Chain set": 0,
-	"Obtain Great Lord set": 0,
 	"Obtain Chester's set": 0,
 	"Obtain Lord's Blade set": 0,
 
@@ -621,7 +620,6 @@ var milestones = {
 
 	# SOUL OF GWYN, LORD OF CINDER - 9
 	"Soul of Gwyn, Lord of Cider": 9,
-	"Great Lord Greatsword": 9,
 	
 	# SOUL OF MANUS - 10
 	"Soul of Manus": 10,

@@ -1,5 +1,11 @@
 # Dark Souls Changelog
 
+
+## v1.1.1
+* Removed 2 milestones
+    * Great Lord Greatsword
+    * Great Lord set
+
 ## v1.1.0
 * Added 35 new milestones
     * Undead Asylum F2 West Key
