@@ -1,10 +1,12 @@
 # Dark Souls Changelog
 
-
 ## v1.1.1
-* Removed 2 milestones
-    * Great Lord Greatsword
-    * Great Lord set
+* Removed 5 milestones
+    * Great Lord Greatsword - essentially endgame set, too long for bingo
+    * Great Lord set - essentially endgame set, too long for bingo
+    * Kill Kingseeker Frampt - cannot be killed by normal means
+    * Kill Snuggly the Crow - cannot be killed by normal means
+    * Kill Stone Dragon - cannot be killed by normal means
 * Correct spelling of `Shiva of the East`
 
 ## v1.1.0
