@@ -67,7 +67,7 @@ var milestones = {
 	"Kill Petrus of Thorolund": 0,
 	"Kill Quelana of Izalith": 0,
 	"Kill Rhea of Thorolund": 0,
-	"Kill Shive of the East": 0,
+	"Kill Shiva of the East": 0,
 	"Kill Snuggly the Crow": 0,
 	"Kill Undead Merchant (Female)": 0,
 	"Kill Undead Merchant (Male)": 0,

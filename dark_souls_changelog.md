@@ -5,6 +5,7 @@
 * Removed 2 milestones
     * Great Lord Greatsword
     * Great Lord set
+* Correct spelling of `Shiva of the East`
 
 ## v1.1.0
 * Added 35 new milestones
