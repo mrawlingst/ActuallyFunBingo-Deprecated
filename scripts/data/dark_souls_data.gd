@@ -5,7 +5,7 @@ extends Node
 # A = Major update
 # B = New milestones (more than removal)
 # C = Removed milestones (more than additions)
-var version = "1.1.0"
+var version = "1.1.1"
 
 var milestones = {
 	# NON-EXCLUSIVE
