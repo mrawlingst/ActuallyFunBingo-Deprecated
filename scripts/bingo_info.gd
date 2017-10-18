@@ -2,6 +2,7 @@ extends Node
 
 var game = "World of Warcraft"
 var milestones = {}
+var version = "v1.0.2"
 
 func info():
 	if game == "World of Warcraft":
@@ -9,6 +10,9 @@ func info():
 	
 	if game == "Dark Souls":
 		return ds_data.info()
+	
+	if game == "TLoZ: Breath of the Wild":
+		return botw_data.info()
 	
 	return ""
 
@@ -18,5 +22,8 @@ func get_version():
 	
 	if game == "Dark Souls":
 		return ds_data.version
+	
+	if game == "TLoZ: Breath of the Wild":
+		return botw_data.version
 	
 	return "0"

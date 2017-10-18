@@ -5,6 +5,7 @@ var milestones = []
 func _ready():
 	get_node("Title").set_text(bingo_info.game + " Bingo")
 	get_node("Seed Generator").new_seed()
+	get_node("Version").set_text(bingo_info.version)
 	
 	populate_card()
 
@@ -28,7 +29,7 @@ func populate_card():
 	for i in range(25):
 		get_node("Card/Milestone_" + str(i + 1) + "/Label").set_text(milestones[i])
 	
-	get_node("Info").set_bbcode("[right]" + bingo_info.info() + "\tSeed: [b]" + str(bingo_seed) + "[/b]\tVersion: [b]v" + bingo_info.get_version() + "[/b][/right]")
+	get_node("Info").set_bbcode("[right]" + bingo_info.info() + "\tSeed: [b]" + str(bingo_seed) + "[/b]\tGame Version: [b]v" + bingo_info.get_version() + "[/b][/right]")
 
 # True if need new milestone
 # False if dont need new milestone

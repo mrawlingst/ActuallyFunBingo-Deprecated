@@ -81,6 +81,7 @@ flat = false
 
 [node name="Games" type="VBoxContainer" parent="."]
 
+editor/display_folded = true
 focus/ignore_mouse = false
 focus/stop_mouse = false
 size_flags/horizontal = 2
@@ -235,7 +236,6 @@ margin/left = 364.0
 margin/top = 0.0
 margin/right = 436.0
 margin/bottom = 72.0
-disabled = true
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -302,11 +302,29 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 
+[node name="Version" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 3.0
+margin/top = 758.0
+margin/right = 633.0
+margin/bottom = 772.0
+custom_fonts/font = ExtResource( 3 )
+text = "Version a.b.c"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
 [connection signal="pressed" from="World of Warcraft_Old" to="." method="_on_World_of_Warcraft_pressed"]
 
 [connection signal="pressed" from="Quit Button" to="." method="_on_Quit_Button_pressed"]
 
 [connection signal="pressed" from="Games/Row 1/Dark Souls" to="." method="_on_Dark_Souls_pressed"]
+
+[connection signal="pressed" from="Games/Row 1/Breath of the Wild" to="." method="_on_Breath_of_the_Wild_pressed"]
 
 [connection signal="pressed" from="Games/Row 1/World of Warcraft" to="." method="_on_World_of_Warcraft_pressed"]
 
