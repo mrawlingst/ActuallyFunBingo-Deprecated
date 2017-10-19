@@ -1,7 +1,7 @@
 extends Control
 
 func _ready():
-	get_node("Version").set_text(bingo_info.version)
+	#get_node("Version").set_text(bingo_info.version)
 	
 	print("BOTW:" + str(botw_data.milestones.size()))
 	print("DS1:" + str(ds_data.milestones.size()))

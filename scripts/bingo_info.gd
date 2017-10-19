@@ -2,7 +2,9 @@ extends Node
 
 var game = "World of Warcraft"
 var milestones = {}
-var version = "v1.1.0"
+var version = "1.1.0"
+var version_display = ""
+var version_checked = false
 
 func info():
 	if game == "World of Warcraft":

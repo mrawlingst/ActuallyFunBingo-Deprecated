@@ -5,7 +5,6 @@ var milestones = []
 func _ready():
 	get_node("Title").set_text(bingo_info.game + " Bingo")
 	get_node("Seed Generator").new_seed()
-	get_node("Version").set_text(bingo_info.version)
 	
 	populate_card()
 
