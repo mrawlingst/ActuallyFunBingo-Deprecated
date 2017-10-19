@@ -30,3 +30,7 @@ func _on_Breath_of_the_Wild_pressed():
 
 func go_to_bingo():
 	get_tree().change_scene("res://scenes/scene_bingo.tscn")
+
+
+func _on_Credits_pressed():
+	get_tree().change_scene("res://scenes/scene_about.tscn")
