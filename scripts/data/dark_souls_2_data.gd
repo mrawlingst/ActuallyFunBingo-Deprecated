@@ -344,7 +344,55 @@ var milestones = {
 	# WHIPS
 	"Notched Whip": 0,
 	"Whip": 0,
-	
+
+	# SMALL SHIELDS
+	"Benhart's Parma": 0,
+	"Buckler": 0,
+	"Cleric's Parma": 0,
+	"Cleric's Small Shield": 0,
+	"Crimson Parma": 0,
+	"Foot Soldier Shield": 0,
+	"Golden Falcon Shield": 0,
+	"Iron Parma": 0,
+	"Phoenix Parma": 0,
+	"Sanctum Shield": 0,
+	"Small Leather Shield": 0,
+	"Target Shield": 0,
+	"Transgressor's Leather Shield": 0,
+
+	# NORMAL SHIELDS
+	"Archdrake Shield": 0,
+	"Black Flamestone Parma": 0,
+	"Blossom Kite Shield": 0,
+	"Blue Wooden Shield": 0,
+	"Bound Wooden Shield": 0,
+	"Chaos Shield": 0,
+	"Drangleic Shield": 0,
+	"Golden Wing Shield": 0,
+	"Grand Spirit Tree Shield": 0,
+	"Homunculus Wooden Shield": 0,
+	"Large Leather Shield": 0,
+	"Mirrah Shield": 0,
+	"Moon Butterfly Shield": 0,
+	"Porcine Shield": 0,
+	"Red Rust Shield": 0,
+	"Royal Kite Shield": 0,
+	"Shield of the Insolent": 0,
+	"Silver Eagle Kite Shield": 0,
+	"Vessel Shield": 0,
+	"Watchdragon Parma": 0,
+	"Wooden Shield": 0,
+	"Yellow Quartz Shield": 0,
+
+	# GREATSHIELDS
+	"Drakekeeper's Greatshield": 0,
+	"Havel's Greatshield": 0,
+	"Old Knight Greatshield": 0,
+	"Pate's Shield": 0,
+	"Rebel's Greatshield": 0,
+	"Tower Shield": 0,
+	"Twin Dragon Greatshield": 0,
+	"Wicked Eye Greatshield": 0,
 
 	# COVENANTS - 1
 	"Join Bell Keepers": 1,
