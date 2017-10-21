@@ -44,7 +44,6 @@ var milestones = {
 
 	"Light bonfire (The Blue Catherdral)": 0,
 	
-	"Light bonfire (Dragon Shrine)": 0,
 	"Light bonfire (Shrine Entrance)": 0,
 	
 	"Light bonfire (Unseen Path to Heide)": 0,
@@ -58,11 +57,10 @@ var milestones = {
 	"Light bonfire (Straid's Cell)": 0,
 	"Light bonfire (The Tower Apart)": 0,
 	
-	"Light bonfire (Shulva, Sanctum City)": 0,
 	"Light bonfire (Sanctum Walk)": 0,
 	"Light bonfire (Tower of Prayer)": 0,
 	"Light bonfire (Priestess' Chamber)": 0,
-	"Light bonfire (Dragon's Sanctum)": 0,
+
 	"Light bonfire (Hidden Sanctum Chamber)": 0,
 	"Light bonfire (Lair of the Imperfect)": 0,
 	"Light bonfire (Sanctum Interior)": 0,
@@ -76,7 +74,6 @@ var milestones = {
 	
 	"Light bonfire (The Saltfort)": 0,
 	
-	"Light bonfire (Dragon's Rest)": 0,
 	"Light bonfire (Sanctum Nadir)": 0,
 
 	"Light bonfire (Upper Ramparts)": 0,
@@ -84,7 +81,6 @@ var milestones = {
 	"Light bonfire (Upper Gutter)": 0,
 	"Light bonfire (Central Gutter)": 0,
 	
-	"Light bonfire (Brume Tower)": 0,
 	"Light bonfire (Throne Floor)": 0,
 	"Light bonfire (Upper Floor)": 0,
 	"Light bonfire (Foyer)": 0,
@@ -98,7 +94,6 @@ var milestones = {
 	"Light bonfire (Black Gulch Mouth)": 0,
 	"Light bonfire (Hidden Chamber)": 0,
 
-	"Light bonfire (Iron Passage)": 0,
 	"Light bonfire (Iron Hallway Entrance)": 0,
 	
 	"Light bonfire (Undead Purgatory)": 0,
@@ -116,6 +111,7 @@ var milestones = {
 	"Light bonfire (Expulsion Chamber)": 0,
 	"Light bonfire (Inner Wall)": 0,
 	"Light bonfire (Lower Garrison)": 0,
+
 	"Light bonfire (Grand Cathedral)": 0,
 }
 
