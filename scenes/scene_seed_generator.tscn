@@ -46,7 +46,7 @@ margin/bottom = 50.0
 custom_fonts/font = ExtResource( 2 )
 placeholder/text = "Leave blank for a random seed"
 placeholder/alpha = 0.6
-focus_mode = 0
+focus_mode = 1
 caret/caret_blink = false
 caret/caret_blink_speed = 0.65
 
