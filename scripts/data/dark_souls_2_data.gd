@@ -65,4 +65,10 @@ var ds2_gifts = [
 
 # Return game specfic info for info label
 func info():
-	return ""
+	randomize()
+	
+	var current_class = ds2_classes[randi() % ds2_classes.size()]
+	var current_gift = ds2_gifts[randi() % ds2_gifts.size()]
+	var txt = "Class: [b]" + current_class + "[/b]\tGift: [b]" + current_gift + "[/b]"
+	
+	return txt

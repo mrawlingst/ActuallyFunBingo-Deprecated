@@ -81,7 +81,6 @@ flat = false
 
 [node name="Games" type="VBoxContainer" parent="."]
 
-editor/display_folded = true
 focus/ignore_mouse = false
 focus/stop_mouse = false
 size_flags/horizontal = 2
@@ -157,7 +156,6 @@ margin/left = 200.0
 margin/top = 0.0
 margin/right = 272.0
 margin/bottom = 72.0
-disabled = true
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -325,6 +323,8 @@ percent_visible = 1.0
 [connection signal="pressed" from="Quit Button" to="." method="_on_Quit_Button_pressed"]
 
 [connection signal="pressed" from="Games/Row 1/Dark Souls" to="." method="_on_Dark_Souls_pressed"]
+
+[connection signal="pressed" from="Games/Row 1/Dark Souls II" to="." method="_on_Dark_Souls_II_pressed"]
 
 [connection signal="pressed" from="Games/Row 1/Breath of the Wild" to="." method="_on_Breath_of_the_Wild_pressed"]
 

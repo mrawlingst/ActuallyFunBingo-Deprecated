@@ -13,6 +13,9 @@ func info():
 	if game == "Dark Souls":
 		return ds_data.info()
 	
+	if game == "Dark Souls II":
+		return ds2_data.info()
+	
 	if game == "TLoZ: Breath of the Wild":
 		return botw_data.info()
 	
@@ -24,6 +27,9 @@ func get_version():
 	
 	if game == "Dark Souls":
 		return ds_data.version
+	
+	if game == "Dark Souls II":
+		return ds2_data.version
 	
 	if game == "TLoZ: Breath of the Wild":
 		return botw_data.version
