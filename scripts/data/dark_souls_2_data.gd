@@ -52,6 +52,16 @@ var ds2_classes = [
 	"Warrior"
 ]
 
+# Dark Souls 2 Gifts
+var ds2_gifts = [
+	"Bonfire Ascetic",
+	"Petrified Something",
+	"Seed of a Tree of Giants",
+	"Homeward Bone",
+	"Healing Wares",
+	"Human Effigy",
+	"Life Ring",
+]
 
 # Return game specfic info for info label
 func info():
