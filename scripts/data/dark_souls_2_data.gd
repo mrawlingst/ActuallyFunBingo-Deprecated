@@ -177,6 +177,175 @@ var milestones = {
 	"Sunlight Blade (M)": 0,
 	"Unveil (M)": 0,
 
+	# AXES
+	"Bandit Axe": 0,
+	"Battle Axe": 0,
+	"Bound Hand Axe": 0,
+	"Dragonslayer's Crescent Axe": 0,
+	"Gyrm Axe": 0,
+	"Hand Axe": 0,
+	
+	# BOWS
+	"Composite Bow": 0,
+	"Hunter's Blackbow": 0,
+	"Long Bow": 0,
+	"Short Bow": 0,
+
+	# CLAWS
+	"Claws": 0,
+	"Work Hook": 0,
+
+	# CROSSBOWS
+	"Avelyn": 0,
+	"Heavy Crossbow": 0,
+	"Light Crossbow": 0,
+	"Sanctum Crossbow": 0,
+	
+	# CURVED SWORDS
+	"Falchion": 0,
+	"Melu Scimitar": 0,
+	"Red Rust Scimitar": 0,
+	"Scimitar": 0,
+	"Shotel": 0,
+
+	# CURVED GREATSWORDS
+	"Curved Nil Greatsword": 0,
+	"Murakumo": 0,
+
+	# DAGGERS
+	"Bandit's Knife": 0,
+	"Black Flamestone Dagger": 0,
+	"Broken Thief Sword": 0,
+	"Dagger": 0,
+	"Parrying Dagger": 0,
+	"Royal Dirk": 0,
+
+	# FISTS
+	"Bone Fist": 0,
+	"Caestus": 0,
+
+	# GREATAXES
+	"Bandit Greataxe": 0,
+	"Black Knight Greataxe": 0,
+	"Crescent Axe": 0,
+	"Drakekeeper's Greataxe": 0,
+	"Greataxe": 0,
+	"Gyrm Greataxe": 0,
+
+	# GREATBOWS
+	"Alonne Greatbow": 0,
+	"Twin-headed Greatbow": 0,
+
+	# GREAT HAMMERS
+	"Demon's Great Hammer": 0,
+	"Dragon Tooth": 0,
+	"Giant Warrior Club": 0,
+	"Great Club": 0,
+	"Large Club": 0,
+	"Malformed Shell": 0,
+	"Malformed Skull": 0,
+	"Old Knight Hammer": 0,
+	"Pickaxe": 0,
+	"Sanctum Mace": 0,
+
+	# GREATSWORDS
+	"Bastard Sword": 0,
+	"Black Knight Greatsword": 0,
+	"Bluemoon Greatsword": 0,
+	"Claymore": 0,
+	"Drakeblood Greatsword": 0,
+	"Drangleic Sword": 0,
+	"Flamberge": 0,
+	"Greatsword of the Forlorn": 0,
+	"Key to the Embedded": 0,
+	"Majestic Greatsword": 0,
+	"Mastodon Greatsword": 0,
+	"Mirrah Greatsword": 0,
+	"Royal Greatsword": 0,
+
+	# HALBERDS
+	"Black Knight Halberd": 0,
+	"Blue Knight's Halberd": 0,
+	"Halberd": 0,
+	"Helix Halberd": 0,
+	"Lucerne": 0,
+	"Mastodon Halberd": 0,
+	"Old Knight Halberd": 0,
+	"Old Knight Pike": 0,
+	"Santier's Spear": 0,
+	"Scythe": 0,
+	"Syan's Halberd": 0,
+
+	# HAMMERS
+	"Aldia Hammer": 0,
+	"Blacksmith's Hammer": 0,
+	"Club": 0,
+	"Craftsman's Hammer": 0,
+	"Handmaid's Ladle": 0,
+	"Homunculus Mace": 0,
+	"Mace": 0,
+	"Mace of the Insolent": 0,
+	"Morning Star": 0,
+	"Reinforced Club": 0,
+
+	# KATANAS
+	"Darkdrift": 0,
+	"Manslayer": 0,
+	"Uchigatana": 0,
+	"Washing Pole": 0,
+
+	# LANCES
+	"Grand Lance": 0,
+	"Heide Greatlance": 0,
+	"Heide Lance": 0,
+
+	# REAPERS
+	"Great Scythe": 0,
+	"Scythe of the Forlorn": 0,
+	"Scythe of Nahr Alma": 0,
+
+	# SPEARS
+	"Heide Spear": 0,
+	"Partizan": 0,
+	"Pate's Spear": 0,
+	"Pike": 0,
+	"Pilgrim's Spontoon": 0,
+	"Spear": 0,
+	"Winged Spear": 0,
+
+	# STRAIGHT SWORDS
+	"Broadsword": 0,
+	"Broken Straight Sword": 0,
+	"Longsword": 0,
+	"Puzzling Stone Sword": 0,
+	"Red Rust Sword": 0,
+	"Shortsword": 0,
+	"Yellow Quartz Longsword": 0,
+
+	# THRUSTING SWORDS
+	"Chaos Rapier": 0,
+	"Black Scorpion Stinger": 0,
+	"Espanda Ropera": 0,
+	"Estoc": 0,
+	"Mail Breaker": 0,
+	"Rapier": 0,
+	"Ricard's Rapier": 0,
+
+	# TWINBLADES
+	"Red Iron Twinblade": 0,
+	"Sorcerer's Twinblade": 0,
+	"Twinblade": 0,
+
+	# ULTRA GREATSWORDS
+	"Black Knight Ultra Greatsword": 0,
+	"Greatsword": 0,
+	"Zweihander": 0,
+
+	# WHIPS
+	"Notched Whip": 0,
+	"Whip": 0,
+	
+
 	# COVENANTS - 1
 	"Join Bell Keepers": 1,
 	"Join Blue Sentinels": 1,
