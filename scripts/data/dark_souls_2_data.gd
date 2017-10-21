@@ -394,6 +394,36 @@ var milestones = {
 	"Twin Dragon Greatshield": 0,
 	"Wicked Eye Greatshield": 0,
 
+	# PYROMANCY FLAMES
+	"Pyromancy Flame": 0,
+	"Dark Pyromancy Flame": 0,
+
+	# STAVES
+	"Archdrake Staff": 0,
+	"Azal's Staff": 0,
+	"Black Witch's Staff": 0,
+	"Bone Staff": 0,
+	"Olenford's Staff": 0,
+	"Retainer Staff": 0,
+	"Sorcerer's Staff": 0,
+	"Staff of Amana": 0,
+	"Staff of Wisdom": 0,
+	"Sunset Staff": 0,
+	"Transgressor's Staff": 0,
+	"Witchtree Branch": 0,
+
+	# SACRED CHIMES
+	"Archdrake Chime": 0,
+	"Black Witch's Staff": 0,
+	"Caitha's Chime": 0,
+	"Cleric's Sacred Chime": 0,
+	"Disc Chime": 0,
+	"Dragon Chime": 0,
+	"Idol's Chime": 0,
+	"Priest's Chime": 0,
+	"Protective Chime": 0,
+	"Witchtree Bellvine": 0,
+
 	# COVENANTS - 1
 	"Join Bell Keepers": 1,
 	"Join Blue Sentinels": 1,
