@@ -1,7 +1,7 @@
 extends Node
 
 # Version of game data
-var version = "1.0.0"
+var version = "1.0.1"
 
 var milestones = {
 	# GREAT FARIES
