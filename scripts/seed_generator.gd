@@ -11,6 +11,7 @@ func _on_Generate_Button_pressed():
 	else:
 		bingo_seed = int(get_node("Seed Editbox").get_text())
 	
+	_on_Reset_Button_pressed()
 	get_node("../.").populate_card()
 
 func _on_Reset_Button_pressed():
