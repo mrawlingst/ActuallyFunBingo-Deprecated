@@ -6,6 +6,7 @@ func _ready():
 	print("BOTW:" + str(botw_data.milestones.size()))
 	print("DS1:" + str(ds_data.milestones.size()))
 	print("DS2:" + str(ds2_data.milestones.size()))
+	print("DS3:" + str(ds3_data.milestones.size()))
 	print("WOW:" + str(wow_data.milestones.size()))
 
 func _on_Quit_Button_pressed():
@@ -38,5 +39,11 @@ func _on_Credits_pressed():
 func _on_Dark_Souls_II_pressed():
 	bingo_info.game = "Dark Souls II"
 	bingo_info.milestones = ds2_data.milestones
+	
+	go_to_bingo()
+
+func _on_Dark_Souls_III_pressed():
+	bingo_info.game = "Dark Souls III"
+	bingo_info.milestones = ds3_data.milestones
 	
 	go_to_bingo()
