@@ -1,5 +1,10 @@
 # Dark Souls Changelog
 
+## v1.1.2
+* Updated 1 milestone
+    * `Claw` from `Claws`
+        * Correct spelling of the weapon to prevent confusion of having more than one claw
+
 ## v1.1.1
 * Removed 3 milestones
     * `Great Lord Greatsword`
