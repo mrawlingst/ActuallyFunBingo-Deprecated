@@ -320,7 +320,7 @@ var milestones = {
 
 	# FIST WEAPONS
 	"Caestus": 0,
-	"Claws": 0,
+	"Claw": 0,
 	"Dark Hand": 0,
 
 	# SPEARS

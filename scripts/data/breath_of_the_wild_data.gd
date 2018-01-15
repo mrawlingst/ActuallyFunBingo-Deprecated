@@ -1140,7 +1140,7 @@ var milestones = {
 	"Chuchu Jelly (10)": 0,
 	"Electric Keese Wing (10)": 0,
 	"Fire Keese Wing (10)": 0,
-	"Giant Ancient Core (5)": 0,
+	"Giant Ancient Core (1)": 0,
 	"Hinox Guts (1)": 0,
 	"Hinox Toenail (1)": 0,
 	"Hinox Tooth (1)": 0,

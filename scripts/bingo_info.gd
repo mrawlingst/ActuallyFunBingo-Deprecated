@@ -2,7 +2,7 @@ extends Node
 
 var game = "World of Warcraft"
 var milestones = {}
-var version = "1.2.2"
+var version = "1.2.3"
 var version_display = ""
 var version_checked = false
 
