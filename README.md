@@ -21,11 +21,11 @@ First made a [web version](https://mrawlingst.github.io/wow-bingo/) of bingo for
 
 Games Supported:
 * Dark Souls ([changelog](dark_souls_changelog.md))
+* Dark Souls 2 ([changelog](dark_souls_ii_changelog.md))
 * The Legend of Zelda: Breath of the Wild ([changelog](breath_of_the_wild_changelog.md))
 * World of Warcraft ([changelog](world_of_warcraft_changelog.md))
 
 Planned Game Support:
-* Dark Souls II
 * Dark Souls III
 * Super Mario 64
 * The Legend of Zelda: Ocarina of Time
