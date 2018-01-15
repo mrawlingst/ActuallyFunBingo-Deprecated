@@ -12,12 +12,12 @@ func _ready():
 
 func download_version(userdata):
 	request = get_node("HTTPRequest")
-	request.set_download_file("res://version.txt")
+	request.set_download_file("user://version.txt")
 	request.request("https://raw.githubusercontent.com/mrawlingst/ActuallyFunBingo/master/version.txt", StringArray([]), true)
 
 func _on_HTTPRequest_request_completed( result, response_code, headers, body ):
 	var file = File.new()
-	file.open("res://version.txt", file.READ)
+	file.open("user://version.txt", file.READ)
 	print(file.get_as_text())
 	bingo_info.version_checked = true
 	
