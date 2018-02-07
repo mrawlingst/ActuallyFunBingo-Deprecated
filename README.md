@@ -1,3 +1,6 @@
+# THIS PROJECT IS CURRENTLY UNDERGOING CHANGES AND SOON DEPRECATED
+This project uses Godot 2.1.4 however I want to port this project to Godot 3.0 which requires essentially a complete rewrite of the bingo app from scratch. Therefore, do not rely for any updates on this project.
+
 # ActuallyFunBingo
 
 *Originally inspired by [OOT Bingo](http://speedruntools.com/bingo/oot)*.
